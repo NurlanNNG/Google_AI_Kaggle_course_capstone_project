@@ -1,0 +1,6 @@
+# MedGuard runtime dependencies (versions tested for this capstone).
+google-adk==2.3.0        # ADK multi-agent framework (Day 2)
+mcp==1.28.1              # Model Context Protocol server/client (Day 2 & Day 5)
+
+# Dev / test only:
+pytest>=8.0             # deterministic test suite (Day 4)

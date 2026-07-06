@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "purpose": "Illustrative demo dataset for the MedGuard capstone. NOT a medical device and NOT an exhaustive or authoritative drug reference.",
+    "disclaimer": "For educational/demo use only. Always confirm with a licensed pharmacist or physician.",
+    "version": "0.1.0"
+  },
+  "drugs": {
+    "warfarin": {
+      "canonical": "warfarin",
+      "aliases": ["coumadin", "jantoven"],
+      "class": "anticoagulant",
+      "common_uses": ["blood clot prevention", "atrial fibrillation"]
+    },
+    "aspirin": {
+      "canonical": "aspirin",
+      "aliases": ["acetylsalicylic acid", "asa"],
+      "class": "antiplatelet / NSAID",
+      "common_uses": ["pain", "fever", "clot prevention"]
+    },
+    "ibuprofen": {
+      "canonical": "ibuprofen",
+      "aliases": ["advil", "motrin", "nurofen"],
+      "class": "NSAID",
+      "common_uses": ["pain", "inflammation", "fever"]
+    },
+    "lisinopril": {
+      "canonical": "lisinopril",
+      "aliases": ["prinivil", "zestril"],
+      "class": "ACE inhibitor",
+      "common_uses": ["high blood pressure", "heart failure"]
+    },
+    "spironolactone": {
+      "canonical": "spironolactone",
+      "aliases": ["aldactone"],
+      "class": "potassium-sparing diuretic",
+      "common_uses": ["high blood pressure", "heart failure", "edema"]
+    },
+    "simvastatin": {
+      "canonical": "simvastatin",
+      "aliases": ["zocor"],
+      "class": "statin",
+      "common_uses": ["high cholesterol"]
+    },
+    "clarithromycin": {
+      "canonical": "clarithromycin",
+      "aliases": ["biaxin"],
+      "class": "macrolide antibiotic",
+      "common_uses": ["bacterial infections"]
+    },
+    "metformin": {
+      "canonical": "metformin",
+      "aliases": ["glucophage"],
+      "class": "biguanide",
+      "common_uses": ["type 2 diabetes"]
+    },
+    "sertraline": {
+      "canonical": "sertraline",
+      "aliases": ["zoloft"],
+      "class": "SSRI antidepressant",
+      "common_uses": ["depression", "anxiety"]
+    },
+    "tramadol": {
+      "canonical": "tramadol",
+      "aliases": ["ultram"],
+      "class": "opioid analgesic",
+      "common_uses": ["pain"]
+    },
+    "levothyroxine": {
+      "canonical": "levothyroxine",
+      "aliases": ["synthroid", "levoxyl"],
+      "class": "thyroid hormone",
+      "common_uses": ["hypothyroidism"]
+    },
+    "amlodipine": {
+      "canonical": "amlodipine",
+      "aliases": ["norvasc"],
+      "class": "calcium channel blocker",
+      "common_uses": ["high blood pressure", "angina"]
+    },
+    "omeprazole": {
+      "canonical": "omeprazole",
+      "aliases": ["prilosec"],
+      "class": "proton pump inhibitor",
+      "common_uses": ["acid reflux", "ulcers"]
+    },
+    "digoxin": {
+      "canonical": "digoxin",
+      "aliases": ["lanoxin"],
+      "class": "cardiac glycoside",
+      "common_uses": ["heart failure", "atrial fibrillation"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Secrets — never commit
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+adkenv/
+.pytest_cache/
+.mypy_cache/
+
+# ADK / local artifacts
+*.session.json
+.adk/

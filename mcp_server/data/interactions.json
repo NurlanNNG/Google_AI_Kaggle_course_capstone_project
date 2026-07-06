@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "purpose": "Illustrative demo interaction pairs for the MedGuard capstone.",
+    "disclaimer": "Educational/demo data only. Severity labels are simplified. Not a substitute for professional advice.",
+    "severity_levels": ["minor", "moderate", "major"],
+    "version": "0.1.0"
+  },
+  "interactions": [
+    {
+      "a": "warfarin",
+      "b": "aspirin",
+      "severity": "major",
+      "mechanism": "Additive bleeding risk (anticoagulant + antiplatelet).",
+      "advice": "Combination materially raises bleeding risk. A clinician should review before combining."
+    },
+    {
+      "a": "warfarin",
+      "b": "ibuprofen",
+      "severity": "major",
+      "mechanism": "NSAID adds bleeding risk and can affect warfarin levels.",
+      "advice": "Generally avoided together; a pharmacist should be consulted."
+    },
+    {
+      "a": "aspirin",
+      "b": "ibuprofen",
+      "severity": "moderate",
+      "mechanism": "Ibuprofen can blunt aspirin's antiplatelet effect and add GI risk.",
+      "advice": "Timing and necessity should be reviewed with a pharmacist."
+    },
+    {
+      "a": "lisinopril",
+      "b": "spironolactone",
+      "severity": "major",
+      "mechanism": "Both raise potassium; risk of hyperkalemia.",
+      "advice": "Potassium monitoring is typically required; discuss with a clinician."
+    },
+    {
+      "a": "lisinopril",
+      "b": "ibuprofen",
+      "severity": "moderate",
+      "mechanism": "NSAIDs can reduce ACE-inhibitor effect and affect kidney function.",
+      "advice": "Occasional use may be acceptable; regular use should be reviewed."
+    },
+    {
+      "a": "simvastatin",
+      "b": "clarithromycin",
+      "severity": "major",
+      "mechanism": "Clarithromycin inhibits CYP3A4, raising simvastatin levels (muscle-injury risk).",
+      "advice": "This pairing is often avoided; a clinician may pause the statin during the antibiotic course."
+    },
+    {
+      "a": "sertraline",
+      "b": "tramadol",
+      "severity": "major",
+      "mechanism": "Additive serotonergic effect; serotonin-syndrome risk.",
+      "advice": "Requires clinician review; watch for agitation, tremor, high heart rate."
+    },
+    {
+      "a": "digoxin",
+      "b": "spironolactone",
+      "severity": "moderate",
+      "mechanism": "Can alter digoxin levels/electrolytes.",
+      "advice": "Levels are usually monitored; discuss with a clinician."
+    },
+    {
+      "a": "levothyroxine",
+      "b": "omeprazole",
+      "severity": "moderate",
+      "mechanism": "Reduced stomach acid can lower levothyroxine absorption.",
+      "advice": "Separating doses may help; confirm with a pharmacist."
+    },
+    {
+      "a": "levothyroxine",
+      "b": "metformin",
+      "severity": "minor",
+      "mechanism": "Possible minor effect on glucose control.",
+      "advice": "Usually manageable; routine monitoring is typical."
+    },
+    {
+      "a": "amlodipine",
+      "b": "simvastatin",
+      "severity": "moderate",
+      "mechanism": "Amlodipine can raise simvastatin exposure at higher doses.",
+      "advice": "Dose limits may apply; a pharmacist should verify."
+    }
+  ]
+}
